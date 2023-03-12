@@ -1,0 +1,9 @@
+header{
+    background: whitesmoke url(https://www.shutterstock.com/image-photo/headphones-on-laptop-desk-concepts-260nw-1909226362.jpg)
+    justify-content: center;
+}
+img{
+    padding-block-end: 2vw;
+    max-width: 50%;
+    height: auto;
+}
