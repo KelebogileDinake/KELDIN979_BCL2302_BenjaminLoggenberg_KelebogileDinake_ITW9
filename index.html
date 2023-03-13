@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="css/text" href="css/stylesheet.css">
     <title>Kelebogile Dinake's resume</title>
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
 </head>
 <body>
   <header>
@@ -18,44 +18,45 @@
     <h1>Software Developer</h1>
      <p>Aspiring Software developer with passion for coding and a strong foundation in CSS and HTML. Eager to learn and contribute to building innovative software solutions.</p>
     <h2>
-       <li>Education</li>
-       <li>Experience</li>
-       <li>Job specfic skills </li>
-       <li>Interpersonal skills</li>
-       <li>Contacts </li>
-       <li>Form Submit</li>
-       <li>Git Account</li>
+      <ul>
+       <li><a href="#qualifications"> Qualifications</a></li>
+       <li><a href="#experience"> Experience</a></li>
+       <li><a href="#skills">Skills</a></li>
+       <li><a href="#contactdetails"> Contact Details </a></li>
+       <li><a href="#form"> Form Submit</a></li>
+       <li><a href="#git"> Git Account</a></li>
+    </ul>
     </h2>
   </header>
   <section>
     <article>
-      <h2>Qualifications</h2>
-      <h3>CodeSpace Academy, Programming Fundamentals and Intro To Web</h3>
+      <h2 id="qualifications">Qualifications</h2>
+      <h3><a href="https://www.codespace.co.za/"> CodeSpace Academy,</a> Programming Fundamentals and Intro To Web</h3>
       <h4>Year: Nov 2022- </h4>
       <h5>Programming Fundamentals</h5>
       <p>60 hour course in understating programming concepts; use of a flowchart and pseudocode to plan code; test and debug code; use block-based programming to create a game based on a design brief</p>
       <h5>Intro to Web</h5>
       <p>learning HTML and CSS, creating a resume...</p>
-      <h3>Empowerment Private School, Matric Re-Write</h3>
+      <h3><a href="https://www.facebook.com/EmpowermentPrivateSchool/"> Empowerment Private School,</a> Matric Re-Write</h3>
       <h4>Year: June 2020</h4>
       <p>Mathematics and Physical Sciences</p>
-      <h3>National Cleaner Production Center South Africa, Resource Efficiency and Cleaner Production</h3>
+      <h3><a href="https://www.csir.co.za/"> CSIR,</a> Resource Efficiency and Cleaner Production</h3>
       <h4> Year: July 2019- Dec 2019</h4>
       <p>Introductory Course</p>
-      <h3>Orbit TVET College, Electrical Engineering,</h3>
+      <h3><a href="http://www.orbitcollege.co.za/"> Orbit TVET College,</a> Electrical Engineering,</h3>
       <h4>Year: Sept 2017- Nov 2018</h4>
       <h5> N4-N6 Heavy Current </h5>
       <p>Mathematics,N4 Engineering Science, N5-N6 Power Machines, Electro Technics, Industrial Electronics.</p>
-      <h3>Taletso TVET College, Electrical Engineering</h3>
+      <h3><a href="http://taletso.edu.za/"> Taletso TVET College,</a> Electrical Engineering</h3>
       <h4>Year: May 2016- April 2017</h4>
       <h5> N1-N3 Heavy Current</h5>
       <p>Mathematics, Engineering Science, N1-N2 Electrical Trade Theory, N3 Electro-Technology, Industrial Electronics</p>
-      <h3>Bafokeng High School, Matric</h3>
+      <h3><a href="http://bafokengsecondaryschool.co.za/"> Bafokeng High School,</a> Matric</h3>
       <h4>Year: 2015</h4>
       <h5>Maths and Science</h5>
       <p>Setswana Home Language, Afrikaans Second Language, English First Additional Language, Mathematics, Life Orientation, Consumer Studies, Life Sciences, Physical Science </p>
      <br>
-     <h2>Experience</h2>
+     <h2 id="experience">Experience</h2>
      <h3>Volt Amp Technologies(pty)Ltd, Logistics and Procument</h3>
      <h4>Year: Nov 2021- Feb 2023</h4>
      <h3>Kgale Primary School, Assistant Teacher</h3>
@@ -63,14 +64,14 @@
      <h3>Thaba Legae Guest Lodge, RECP Intern</h3>
      <h4>Year: July 2019- Dec 2019</h4>
      <br>
-     <h2>Skills</h2>
+     <h2 id="skills">Skills</h2>
      <h3>Job Related Skills</h3>
      <ul>
         <li>Computer Skills</li>
         <ul>
             <li>Microsoft Office</li>
             <li>Google</li>
-            <li>Gmail</li>
+            <li>VS Code</li>
             <li>Zoom</li>
         </ul>
         </li>
@@ -94,14 +95,30 @@
     </article>
   </section>
   <footer>
-   <h2> Contact Details</h2>
-    <li><a href="https://www.linkedin.com/feed/"> Linkedin</a></li>
-    <li><a href="https://github.com/KelebogileDinake/"> Git Hub</a></li>
+   <h2 id="contactdetails"> Contact Details</h2>
+    <li><a href=""> Linkedin</a></li>
+    <li id="git"><a href="https://github.com/KelebogileDinake/"> Git Hub</a></li>
     <li><a href="kelebogiledinake97@gmail.com">kelebogiledinake97@gmail.com</a></li>
-    <li><a href="https://www.facebook.com/home.php/"> Facebook</a> </li>
+    <li><a href="https://www.facebook.com/me"> Facebook</a></li>
     <br>
+    <h2 id="form">Contact Me</h2>
     <form action="https://formsubmit.co/kelebogiledinake97@gmail.com" method="post">
       <label  for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <br>
+      <h4>Select Response</h4>
+      <form action="#" method="get">
+        <select name="respond" required>
+        <option value="select">Select below</option>
+        <option value="interview">Interview Opportunity</option>
+        <option value="submission">Certification Verification</option>
+        <option value="notsuccessful">Not Successful</option>
+        </select>
+        <br>
+        <textarea name="message" id="text" cols="30" rows="10" placeholder="message here please (optional)..."></textarea>
+        <br>
+        <input type="submit">
+      </form>
       <br>
       <h4></h4>
     </form>
