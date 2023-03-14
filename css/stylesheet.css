@@ -1,61 +1,68 @@
-body{
+body {
     display: block;
     margin: 0;
     padding: 0;
     border-style: double;
     background-color: black;
 }
-header{
+
+header {
     background-color: white;
     border-style: hidden;
     top: 0;
 }
-.font{
-    font-size:1vw; 
+
+.font {
+    font-size: 1vw;
     padding: 10px;
+    color: whitesmoke;
 }
-img{
+
+img {
     border-radius: 50%;
     padding-top: 0;
     margin-right: 50%;
-}
-.hero{
-    background: whitesmoke url(https://www.shutterstock.com/image-photo/headphones-on-laptop-desk-concepts-260nw-1909226362.jpg) no-repeat;
-    background-position-x: right;
-    background-position-y: bottom;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 /* Navigation Bar*/
 .navbar{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 200px;
-    display: flex;
-    right: 0;
-    
+    overflow: hidden;
+    position: absolute;
+    right: 30px;
 }
-tag{
+#nav{
+   display: inline; 
+   border: 13px hidden;
+   margin-left: 10px;
+}
+#nav a {
+    font-size: larger;
+    color: red;
     text-decoration: none;
-    color: inherit;
 }
-#navigation{
-    color: #845ec2;
-    text-align: center;
-    padding: 8px 16px;
+.hero {
+    background-image: url(https://images.unsplash.com/photo-1559827260-dc66d52bef19?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
+    background-size: cover;
+    background-position-y: 50%;
 }
-section{
+section {
     display: flex;
 }
-article{
+
+article {
     background-color: #faccff;
     flex: 2;
     padding: 10px;
 }
-aside{
+
+aside {
     background-color: #dcb0ff;
     flex: 2;
     padding: 10px;
 }
+
 /* Skills flex*/
 /*.skills{
     display: grid;
@@ -64,12 +71,21 @@ aside{
 .grid{
     padding: 1rem;
 }*/
-footer{
+footer {
     background-color: whitesmoke;
     margin-top: -19.5px;
     display: block;
-    bottom: 0;
+    margin-bottom: -25px;
 }
-.button{
-    color:#845ec2
+
+.button {
+    color: #845ec2;
+    position: relative;
+    bottom: 0px;
+    width: fit-content;
+    height: 40px;
+    background-color: black;
+    left: 1380px;
+    border: 2px dotted white;
+    padding: 1px;
 }
