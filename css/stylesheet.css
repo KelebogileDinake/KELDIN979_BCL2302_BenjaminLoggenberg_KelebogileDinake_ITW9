@@ -1,11 +1,6 @@
-body{
-    border-style: hidden;
-}
-
-/* Header */
-Header{
-    background-color: #293241;
-    border-style: hidden;
+header{
+    background: whitesmoke url(https://www.shutterstock.com/image-photo/headphones-on-laptop-desk-concepts-260nw-1909226362.jpg)
+    justify-content center;
 }
 /* Navigation Bar*/
 .navbar{
@@ -13,4 +8,10 @@ Header{
     margin: 0;
     padding: 0;
     display: inline block;
+}
+/* Navigation Bar*/
+ul{
+    list-style-type: none;
+    margin:0;
+    padding: 0;
 }
