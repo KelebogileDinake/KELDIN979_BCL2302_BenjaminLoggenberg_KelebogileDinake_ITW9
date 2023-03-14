@@ -1,17 +1,54 @@
+body{
+    display: block;
+    margin: auto;
+    border-style: double;
+}
 header{
-    background: whitesmoke url(https://www.shutterstock.com/image-photo/headphones-on-laptop-desk-concepts-260nw-1909226362.jpg)
-    justify-content center;
+    background-color: white;
+    border-style: hidden;
+}
+.font{
+    font-size:1vw; 
+    padding: 10px;
+}
+img{
+    border-radius: 50%;
+    padding-top: 0;
+    margin-right: 50%;
+}
+.hero{
+    background: whitesmoke url(https://www.shutterstock.com/image-photo/headphones-on-laptop-desk-concepts-260nw-1909226362.jpg) no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
 }
 /* Navigation Bar*/
 .navbar{
     list-style-type: none;
     margin: 0;
     padding: 0;
-    display: inline block;
+    width: 200px;
+    display: flex;
+    right: 0;
 }
-/* Navigation Bar*/
-ul{
-    list-style-type: none;
-    margin:0;
-    padding: 0;
+#navigation{
+    color: #845ec2;
+    text-align: center;
+    padding: 8px 16px;
+}
+section{
+    display: flex;
+}
+article{
+    background-color: #faccff;
+    flex: 2;
+    padding: 10px;
+}
+aside{
+    background-color: #dcb0ff;
+    flex: 2;
+    padding: 10px;
+}
+footer{
+    background-color: whitesmoke;
+    margin-top: -19.5px;
 }
