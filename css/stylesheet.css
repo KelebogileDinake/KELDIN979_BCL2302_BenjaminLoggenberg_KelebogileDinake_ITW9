@@ -32,6 +32,11 @@ img{
     width: 200px;
     display: flex;
     right: 0;
+    
+}
+tag{
+    text-decoration: none;
+    color: inherit;
 }
 #navigation{
     color: #845ec2;
@@ -52,13 +57,13 @@ aside{
     padding: 10px;
 }
 /* Skills flex*/
-.skills{
+/*.skills{
     display: grid;
     grid-template-columns: 100px 100px;
 }
 .grid{
     padding: 1rem;
-}
+}*/
 footer{
     background-color: whitesmoke;
     margin-top: -19.5px;
