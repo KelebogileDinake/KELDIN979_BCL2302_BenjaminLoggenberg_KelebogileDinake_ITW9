@@ -1,9 +1,16 @@
-header{
-    background: whitesmoke url(https://www.shutterstock.com/image-photo/headphones-on-laptop-desk-concepts-260nw-1909226362.jpg)
-    justify-content center;
+body{
+    border-style: hidden;
 }
-img{
-    padding-block-end: 2vw;
-    max-width: 50%;
-    height: auto;
+
+/* Header */
+Header{
+    background-color: #293241;
+    border-style: hidden;
+}
+/* Navigation Bar*/
+.navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline block;
 }

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="css/text" href="css/stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
     <title>Kelebogile Dinake's resume</title>
 </head>
 <body>
@@ -17,7 +17,7 @@
     </picture>
     <h1>Software Developer</h1>
      <p>Aspiring Software developer with passion for coding and a strong foundation in CSS and HTML. Eager to learn and contribute to building innovative software solutions.</p>
-    <h2>
+    <h2 class="navbar">
        <li>Education</li>
        <li>Experience</li>
        <li>Job specfic skills </li>
@@ -88,7 +88,33 @@
   </section>
   <footer>
    <h2> Contact Details</h2>
-
+    <ul>
+      <li>LinkedIn</li>
+      <li>Git Hub Account</li>
+      <li>kelebogiledinake97@gmail.com</li>
+      <li>Facebook</li>
+    </ul>
+    <br>
+    <h2>Contact Me</h2>
+    <form action="http://formsubmit.co/kelebogiledinake97@gmail.com" method="post">
+    <label for="email"> Email:</label>
+    <input type="email" id="email" name="email" required>
+    <br>
+    <h4>Select response</h4>
+    <form action="#" method="get">
+      <select name="respond" required>
+      <option value="select"> select Below</option>
+      <option value="interview opportunity">Interview Opportunity</option>
+      <option value="submission"> Certification Verification</option>
+      <option value="recruiters"> Recruiters</option>
+      <option value="feedback">Website feedback</option>
+      <option value="not successful"> Not successful</option>
+      </select>
+      <br>
+      <textarea name="message" id="text" cols="30" rows="10" placeholder="please message here..."></textarea>
+      <br>
+      <input type="submit">
+    </form>
   </footer>
 </body>
 </html>
