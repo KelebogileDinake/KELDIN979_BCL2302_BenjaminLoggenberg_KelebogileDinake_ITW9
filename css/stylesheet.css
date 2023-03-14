@@ -1,11 +1,14 @@
 body{
     display: block;
-    margin: auto;
+    margin: 0;
+    padding: 0;
     border-style: double;
+    background-color: black;
 }
 header{
     background-color: white;
     border-style: hidden;
+    top: 0;
 }
 .font{
     font-size:1vw; 
@@ -48,7 +51,20 @@ aside{
     flex: 2;
     padding: 10px;
 }
+/* Skills flex*/
+.skills{
+    display: grid;
+    grid-template-columns: 100px 100px;
+}
+.grid{
+    padding: 1rem;
+}
 footer{
     background-color: whitesmoke;
     margin-top: -19.5px;
+    display: block;
+    bottom: 0;
+}
+.button{
+    color:#845ec2
 }
