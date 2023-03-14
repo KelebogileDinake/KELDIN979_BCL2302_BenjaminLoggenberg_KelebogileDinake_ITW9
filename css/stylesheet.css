@@ -12,8 +12,14 @@ header {
     top: 0;
 }
 
+.hero {
+    background-image: url(https://images.unsplash.com/photo-1559827260-dc66d52bef19?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
+    background-size: cover;
+    background-position-y: 50%;
+}
+
 .font {
-    font-size: 1vw;
+    font-size: 2vw;
     padding: 10px;
     color: whitesmoke;
 }
@@ -39,14 +45,10 @@ img {
 }
 #nav a {
     font-size: larger;
-    color: red;
+    color: white;
     text-decoration: none;
 }
-.hero {
-    background-image: url(https://images.unsplash.com/photo-1559827260-dc66d52bef19?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
-    background-size: cover;
-    background-position-y: 50%;
-}
+
 section {
     display: flex;
 }
