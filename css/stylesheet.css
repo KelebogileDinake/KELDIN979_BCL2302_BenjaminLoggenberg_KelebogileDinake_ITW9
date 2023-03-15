@@ -7,6 +7,7 @@ body {
 }
 
 /* Header*/
+/* Adding a hero image and styling the header*/
 header {
     background-color: white;
     border-style: hidden;
@@ -14,18 +15,21 @@ header {
     background-image: url(https://images.unsplash.com/photo-1559827260-dc66d52bef19?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80)
 }
 
+/* Increase the font use in a header to be clear*/
 .font {
     font-size: 2vw;
     padding: 10px;
     color: whitesmoke;
 }
 
+/*Styling the image and for the image to be centered*/
 img {
     border-radius: 50%;
     margin-right: 50%;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 50px;
 }
 
 /* Navigation Bar*/
@@ -64,15 +68,18 @@ aside {
 }
 
 h2 {
-    font-size: 1.8vw;
+    font-size: 1.8em;
 }
-h3{
-    font-size: 1.7vw;
+
+h3 {
+    font-size: 1.7em;
 }
-h4{
+
+h4 {
     font-size: 1.5vw;
 }
-h5{
+
+h5 {
     font-size: 1.3vw;
 }
 
@@ -80,6 +87,7 @@ footer {
     background-color: whitesmoke;
     margin-top: -19.5px;
     margin-bottom: -25px;
+    margin: auto;
 }
 
 .footer {
@@ -113,11 +121,6 @@ footer {
     .hero {
         background-image: url(https://images.unsplash.com/photo-1678398315175-32e77ac02145?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1886&q=80);
     }
-
-    #nav a {
-        color: black;
-    }
-
     h2 {
         font-size: 4vw;
         color: navy;
@@ -143,6 +146,12 @@ footer {
     article {
         background-color: #dcb0ff;
     }
+    footer {
+        background-color: whitesmoke;
+        margin-top: -19.5px;
+        margin-bottom: -25px;
+        margin: auto;
+    }
 
 }
 
@@ -156,30 +165,29 @@ footer {
         padding-top: 50px;
     }
 
+    #nav a {
+        color: black;
+    }
+
     h2 {
         font-size: 4vw;
     }
+
     article {
         background-color: #dcb0ff;
         margin-bottom: -7px;
     }
+
     aside {
         background-color: #faccff;
         margin-bottom: -7px;
     }
-
-    
-    
-
-    footer {
-        display: grid;
-
-    }
-
     .skillA {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
-
-
+    footer {
+        display: grid;
+        margin: auto;
+    }
 }
