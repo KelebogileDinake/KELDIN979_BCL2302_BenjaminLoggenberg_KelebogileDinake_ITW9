@@ -152,7 +152,7 @@ footer {
 
     aside {
         background-color: #faccff;
-        margin-bottom: -5px;
+        margin-bottom: -6px;
     }
 
     article {
@@ -165,10 +165,21 @@ footer {
 /* For Tablet of 769px to 1024px*/
 @media only screen and (min-width: 769px) and (max-width: 1024px)  {
 .hero{
-    background-image: url(https://images.unsplash.com/photo-1678509651605-f2c0fa01c49a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80);
+    background-image: url(https://images.unsplash.com/photo-1512138664757-360e0aad5132?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2071&q=80);
 }
-
+img{
+    padding-top: 50px;
+}
+h2{
+    font-size: 4vw;
+}
+article, aside{
+   margin-bottom: -7px ;
+} 
+footer{
+    display: grid;
     
+}   
 }
 
 
