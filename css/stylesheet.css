@@ -118,9 +118,14 @@ footer {
 /* Responsive Web Design*/
 /* For Mobile devices (up to 768px)*/
 @media only screen and (max-width:768px) {
+    .font{
+        text-align: center;
+    }
+    
     section {
         display: flex;
         flex-direction: column;
+        text-align: center;
     }
 
     img {
@@ -167,6 +172,7 @@ footer {
     .footer {
         display: flex;
         flex-direction: column;
+        text-align: center;
     }
 }
 
