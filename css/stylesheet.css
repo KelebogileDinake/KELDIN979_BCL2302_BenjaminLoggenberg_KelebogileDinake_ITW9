@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     border-style: double;
-    background-color: black;
+    background-color: white;
 }
 
 header {
@@ -26,23 +26,25 @@ header {
 
 img {
     border-radius: 50%;
-    padding-top: 0;
     margin-right: 50%;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
+
 /* Navigation Bar*/
-.navbar{
+.navbar {
     overflow: hidden;
     position: absolute;
     right: 30px;
 }
-#nav{
-   display: inline; 
-   border: 13px hidden;
-   margin-left: 10px;
+
+#nav {
+    display: inline;
+    border: 13px hidden;
+    margin-left: 10px;
 }
+
 #nav a {
     font-size: larger;
     color: white;
@@ -50,25 +52,39 @@ img {
 }
 
 section {
-    display: flex;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+/* for the tablet view on responsive
+h2{
+    font-size: 4vw;
+    color: navy;
+}
+h3{
+    font-size: 3vw;
+}
+h4{
+    font-size: 2vw;
+}*/
+h2 {
+    font-size: 1.5vw;
 }
 
 article {
     background-color: #faccff;
-    flex: 2;
     padding: 10px;
 }
 
 aside {
     background-color: #dcb0ff;
-    flex: 2;
     padding: 10px;
 }
 
 /* Skills flex*/
 /*.skills{
     display: grid;
-    grid-template-columns: 100px 100px;
+    grid-template-columns: auto auto;
 }
 .grid{
     padding: 1rem;
@@ -80,14 +96,67 @@ footer {
     margin-bottom: -25px;
 }
 
+/*.form{
+    flex: 2;
+    margin-right: auto;
+}
+.contactdetails{
+    flex: 1;
+    margin-left: auto;
+}*/
 .button {
     color: #845ec2;
     position: relative;
     bottom: 0px;
     width: fit-content;
-    height: 40px;
-    background-color: black;
-    left: 1380px;
+    background-color: #be93fd;
+    margin-left: auto;
     border: 2px dotted white;
-    padding: 1px;
+    text-decoration: none;
+}
+
+/* Responsive Web Design*/
+/* For Mobile devices (up to 768px)*/
+@media only screen and (max-width:768px) {
+    section {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    img {
+        padding-top: 50px;
+    }
+
+    .hero {
+        background-image: url(https://images.unsplash.com/photo-1678398315175-32e77ac02145?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1886&q=80);
+    }
+
+    #nav a {
+        color: black;
+    }
+
+    h2 {
+        font-size: 4vw;
+        color: navy;
+    }
+
+    h3 {
+        font-size: 4vw;
+    }
+
+    h4 {
+        font-size: 3vw;
+    }
+
+    h5 {
+        font-size: 2vw;
+    }
+
+    aside {
+        background-color: #faccff;
+    }
+
+    article {
+        background-color: #dcb0ff;
+    }
 }

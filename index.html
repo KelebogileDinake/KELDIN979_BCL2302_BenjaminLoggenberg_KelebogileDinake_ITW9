@@ -10,21 +10,22 @@
 </head>
 
 <body>
+  <div class="mobile"> <!-- fixing the layout of a mobile responsiveness-->
   <header>
     <div class="navbar">
-    <ul>
-      <li id="nav"><a href="#qualifications">Qualifications</a> </li>
-      <li id="nav"><a href="#experience">Experience </a> </li>
-      <li id="nav"><a href="#skills">Skills</a> </li>
-      <li id="nav"><a href="#contactdetails"> Contact Details</a></li>
-      <li id="nav"><a href="#form"> Form</a></li>
-    </ul>
-  </div>
+      <ul>
+        <li id="nav"><a href="#qualifications">Qualifications</a> </li>
+        <li id="nav"><a href="#experience">Experience </a> </li>
+        <li id="nav"><a href="#skills">Skills</a> </li>
+        <li id="nav"><a href="#contactdetails"> Contact Details</a></li>
+        <li id="nav"><a href="#form"> Form</a></li>
+      </ul>
+    </div>
     <div class="hero">
       <picture>
-        <source media="(max-width:768px)" srcset="./images/kelebogilesmall.jpg">
-        <source media="(max-width:1024px)" srcset="./images/kelebogilemedium.jpg">
-        <img src="./images/kelebogilelargee.jpg" alt="kelebogile" width="300" height="300">
+        <source media="(max-width:768px)" srcset="images\kelebogilesmall.jpg">
+        <source media="(max-width:1024px)" srcset="images\kelebogilemedium.jpg">
+        <img src="images\kelebogilelargee.jpg" alt="kelebogile" height="500" width="300">
       </picture>
       <div class="font">
         <h1>Kelebogile Dinake</h1>
@@ -35,7 +36,7 @@
     </div>
   </header>
   <section>
-    <article>
+    <article class="mobileg">
       <h2 id="qualifications">Qualifications</h2>
       <h3><a href="https://www.codespace.co.za/" target="_blank"> CodeSpace Academy,</a> Programming Fundamentals and
         Intro To Web</h3>
@@ -57,7 +58,7 @@
       <h4>Year: 2015</h4>
       <h5>Maths and Science</h5>
     </article>
-    <aside>
+    <aside class="mobileg">
       <h2 id="experience">Experience</h2>
       <h3>Volt Amp Technologies(pty)Ltd, Logistics and Procument</h3>
       <h4>Year: Nov 2021- Feb 2023</h4>
@@ -105,7 +106,7 @@
     <li><a href="kelebogiledinake97@gmail.com">kelebogiledinake97@gmail.com</a></li>
     <li><a href="https://www.facebook.com/me" target="_blank"> Facebook</a></li>
     <br>
-    <h2>Contact Me</h2>
+    <h2 id="form">Contact Me</h2>
     <form action="http://formsubmit.co/kelebogiledinake97@gmail.com" method="post">
       <label for="email"> Email:</label>
       <input type="email" id="email" name="email" required>
@@ -128,6 +129,7 @@
           <h3> <a href="#nav"> Back to top</a></h3>
         </div>
   </footer>
+</div>
 </body>
 
 </html>
