@@ -3,19 +3,15 @@ body {
     margin: 0;
     padding: 0;
     border-style: double;
-    background-color: black;
+    background-color: white;
 }
+
 /* Header*/
 header {
     background-color: white;
     border-style: hidden;
     top: 0;
-}
-
-.hero {
-    background-image: url(https://images.unsplash.com/photo-1559827260-dc66d52bef19?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
-    background-size: cover;
-    background-position-y: 50%;
+    background-image: url(https://images.unsplash.com/photo-1559827260-dc66d52bef19?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80)
 }
 
 .font {
@@ -52,56 +48,45 @@ img {
 }
 
 section {
-    display: grid;
-    grid-template-columns: auto auto;
-}
-
-/* for the tablet view on responsive
-h2{
-    font-size: 4vw;
-    color: navy;
-}
-h3{
-    font-size: 3vw;
-}
-h4{
-    font-size: 2vw;
-}*/
-h2 {
-    font-size: 1.5vw;
+    display: flex;
 }
 
 article {
+    flex: 2;
     background-color: #faccff;
     padding: 10px;
 }
 
 aside {
+    flex: 2;
     background-color: #dcb0ff;
     padding: 10px;
 }
 
-/* Skills flex*/
-/*.skills{
-    display: grid;
-    grid-template-columns: auto auto;
+h2 {
+    font-size: 1.5vw;
 }
-.grid{
-    padding: 1rem;
-}*/
+h3{
+    font-size: 1.3vw;
+}
+h4{
+    font-size: 1.2vw;
+}
+h5{
+    font-size: 1;
+}
+
 footer {
     background-color: whitesmoke;
     margin-top: -19.5px;
-    display: block;
     margin-bottom: -25px;
 }
 
-.form{
-    flex: 2;
+.footer {
+    display: grid;
+    grid-template-columns: auto auto;
 }
-.contactdetails{
-    flex: 1;
-}
+
 .button {
     color: #845ec2;
     position: relative;
@@ -158,31 +143,43 @@ footer {
     article {
         background-color: #dcb0ff;
     }
-    footer{
+
+}
+
+/* For Tablet of 769px to 1024px*/
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .hero {
+        background-image: url(https://images.unsplash.com/photo-1512138664757-360e0aad5132?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2071&q=80);
+    }
+
+    img {
+        padding-top: 50px;
+    }
+
+    h2 {
+        font-size: 4vw;
+    }
+    article {
+        background-color: #dcb0ff;
+        margin-bottom: -7px;
+    }
+    aside {
+        background-color: #faccff;
+        margin-bottom: -7px;
+    }
+
+    
+    
+
+    footer {
+        display: grid;
 
     }
-}
-/* For Tablet of 769px to 1024px*/
-@media only screen and (min-width: 769px) and (max-width: 1024px)  {
-.hero{
-    background-image: url(https://images.unsplash.com/photo-1512138664757-360e0aad5132?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2071&q=80);
-}
-img{
-    padding-top: 50px;
-}
-h2{
-    font-size: 4vw;
-}
-article, aside{
-   margin-bottom: -7px ;
-} 
-footer{
-    display: grid;
-    
-}   
-}
+
+    .skillA {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 
 
-
-
-
+}
