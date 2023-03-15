@@ -16,7 +16,7 @@ header {
 }
 
 /* Increase the font use in a header to be clear*/
-.font{
+.font {
     font-size: 2vw;
     padding: 10px;
     color: whitesmoke;
@@ -44,13 +44,15 @@ img {
     border: 13px hidden;
     margin-left: 10px;
 }
+
 /* To remove the blue link line on the navigation bar*/
 #nav a {
     font-size: larger;
     color: white;
     text-decoration: none;
 }
-#nav a:hover{
+
+#nav a:hover {
     background-color: #845ec2;
 }
 
@@ -85,7 +87,8 @@ h4 {
 h5 {
     font-size: 1.3vw;
 }
-a:hover{
+
+a:hover {
     background-color: grey;
 }
 
