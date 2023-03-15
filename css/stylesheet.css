@@ -50,6 +50,9 @@ img {
     color: white;
     text-decoration: none;
 }
+#nav a:hover{
+    background-color: #845ec2;
+}
 
 section {
     display: flex;
@@ -81,6 +84,9 @@ h4 {
 
 h5 {
     font-size: 1.3vw;
+}
+a:hover{
+    background-color: grey;
 }
 
 footer {
@@ -121,6 +127,7 @@ footer {
     .hero {
         background-image: url(https://images.unsplash.com/photo-1678398315175-32e77ac02145?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1886&q=80);
     }
+
     h2 {
         font-size: 4vw;
         color: navy;
@@ -146,6 +153,7 @@ footer {
     article {
         background-color: #dcb0ff;
     }
+
     footer {
         background-color: whitesmoke;
         margin-top: -19.5px;
@@ -153,6 +161,10 @@ footer {
         margin: auto;
     }
 
+    .footer {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 /* For Tablet of 769px to 1024px*/
@@ -182,10 +194,12 @@ footer {
         background-color: #faccff;
         margin-bottom: -7px;
     }
+
     .skillA {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
+
     footer {
         display: grid;
         margin: auto;
