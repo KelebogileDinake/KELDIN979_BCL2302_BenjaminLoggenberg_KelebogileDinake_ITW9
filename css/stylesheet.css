@@ -3,9 +3,9 @@ body {
     margin: 0;
     padding: 0;
     border-style: double;
-    background-color: white;
+    background-color: black;
 }
-
+/* Header*/
 header {
     background-color: white;
     border-style: hidden;
@@ -96,14 +96,12 @@ footer {
     margin-bottom: -25px;
 }
 
-/*.form{
+.form{
     flex: 2;
-    margin-right: auto;
 }
 .contactdetails{
     flex: 1;
-    margin-left: auto;
-}*/
+}
 .button {
     color: #845ec2;
     position: relative;
@@ -119,8 +117,8 @@ footer {
 /* For Mobile devices (up to 768px)*/
 @media only screen and (max-width:768px) {
     section {
-        display: grid;
-        grid-template-columns: auto auto;
+        display: flex;
+        flex-direction: column;
     }
 
     img {
@@ -141,7 +139,7 @@ footer {
     }
 
     h3 {
-        font-size: 4vw;
+        font-size: 3vw;
     }
 
     h4 {
@@ -154,9 +152,26 @@ footer {
 
     aside {
         background-color: #faccff;
+        margin-bottom: -5px;
     }
 
     article {
         background-color: #dcb0ff;
     }
+    footer{
+
+    }
 }
+/* For Tablet of 769px to 1024px*/
+@media only screen and (min-width: 769px) and (max-width: 1024px)  {
+.hero{
+    background-image: url(https://images.unsplash.com/photo-1678509651605-f2c0fa01c49a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80);
+}
+
+    
+}
+
+
+
+
+
