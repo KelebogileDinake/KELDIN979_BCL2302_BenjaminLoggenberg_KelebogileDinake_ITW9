@@ -1,5 +1,6 @@
 /* Styling the body */
 body {
+    font-size: 100%;
     display: block;
     margin: 0;
     padding: 0;
@@ -18,7 +19,6 @@ header {
 
 /* Increase the font use in a header to be clear*/
 .font {
-    font-size: 2vw;
     padding: 10px;
     color: whitesmoke;
 }
@@ -57,6 +57,23 @@ img {
 #nav a:hover {
     background-color: #845ec2;
 }
+/*for text to adjust the text size in all browsers*/
+h1{
+    font-size: 2.5em;
+}
+h2{
+    font-size: 1.875em;
+}
+h3{
+    font-size: 1.250em;
+}
+h4{
+    font-size: 1em;
+}
+h5{
+    font-size: 0.875em;
+}
+
 /* used flexbox to avoid content to not overflow*/
 section {
     display: flex;
@@ -128,7 +145,7 @@ footer {
     }
 
     img {
-        padding-top: 50px;
+        padding-top: 70px;
     }
 
     header {
