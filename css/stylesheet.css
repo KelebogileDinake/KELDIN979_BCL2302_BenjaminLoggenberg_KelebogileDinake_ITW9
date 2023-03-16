@@ -1,3 +1,4 @@
+/* Styling the body */
 body {
     display: block;
     margin: 0;
@@ -33,12 +34,13 @@ img {
 }
 
 /* Navigation Bar*/
+/* Positioning the nav bar*/
 .navbar {
     overflow: hidden;
     position: absolute;
     right: 30px;
 }
-
+/* Structuring the nav bar*/
 #nav {
     display: inline;
     border: 13px hidden;
@@ -51,15 +53,15 @@ img {
     color: white;
     text-decoration: none;
 }
-
+/* Hover is for the hightlighting the link when selected*/
 #nav a:hover {
     background-color: #845ec2;
 }
-
+/* used flexbox to avoid content to not overflow*/
 section {
     display: flex;
 }
-
+/* used flex 2 for the flex boxes to be equal in size*/
 article {
     flex: 2;
     background-color: #faccff;
@@ -87,7 +89,7 @@ h4 {
 h5 {
     font-size: 1.3vw;
 }
-
+/* to highlight the links when selected*/
 a:hover {
     background-color: grey;
 }
@@ -98,12 +100,12 @@ footer {
     margin-bottom: -25px;
     margin: auto;
 }
-
+/* use of grid to create 2 columns for contacts and contact form*/
 .footer {
     display: grid;
     grid-template-columns: auto auto;
 }
-
+/* for the back to top button*/
 .button {
     color: #845ec2;
     position: relative;
@@ -118,14 +120,17 @@ footer {
 /* Responsive Web Design*/
 /* For Mobile devices (up to 768px)*/
 @media only screen and (max-width:768px) {
-    .font{
+    body{
         text-align: center;
     }
+    /*.font{
+        text-align: center;
+    }*/
     
     section {
         display: flex;
         flex-direction: column;
-        text-align: center;
+       /* text-align: center;*/
     }
 
     img {
@@ -161,7 +166,9 @@ footer {
     article {
         background-color: #dcb0ff;
     }
-
+    li{
+        list-style-type: none;
+    }
     footer {
         background-color: whitesmoke;
         margin-top: -19.5px;
@@ -172,7 +179,7 @@ footer {
     .footer {
         display: flex;
         flex-direction: column;
-        text-align: center;
+        /*text-align: center;*/
     }
 }
 
@@ -192,6 +199,11 @@ footer {
 
     h2 {
         font-size: 4vw;
+    }
+
+    section{
+        display: flex;
+        flex-direction: row-reverse
     }
 
     article {
