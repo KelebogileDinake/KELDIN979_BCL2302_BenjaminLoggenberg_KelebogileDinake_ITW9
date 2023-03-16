@@ -107,11 +107,9 @@ footer {
 }
 /* for the back to top button*/
 .button {
-    color: #845ec2;
     position: relative;
     bottom: 0px;
     width: fit-content;
-    background-color: #be93fd;
     margin-left: auto;
     border: 2px dotted white;
     text-decoration: none;
@@ -123,14 +121,10 @@ footer {
     body{
         text-align: center;
     }
-    /*.font{
-        text-align: center;
-    }*/
-    
+
     section {
         display: flex;
         flex-direction: column;
-       /* text-align: center;*/
     }
 
     img {
@@ -144,6 +138,7 @@ footer {
     h2 {
         font-size: 4vw;
         color: navy;
+        text-decoration: underline;
     }
 
     h3 {
@@ -179,7 +174,6 @@ footer {
     .footer {
         display: flex;
         flex-direction: column;
-        /*text-align: center;*/
     }
 }
 
