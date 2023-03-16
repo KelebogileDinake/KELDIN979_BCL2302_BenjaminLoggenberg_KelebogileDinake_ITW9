@@ -70,9 +70,6 @@ h3{
 h4{
     font-size: 1em;
 }
-h5{
-    font-size: 0.875em;
-}
 
 /* used flexbox to avoid content to not overflow*/
 section {
@@ -91,21 +88,6 @@ aside {
     padding: 10px;
 }
 
-h2 {
-    font-size: 1.8em;
-}
-
-h3 {
-    font-size: 1.7em;
-}
-
-h4 {
-    font-size: 1.5vw;
-}
-
-h5 {
-    font-size: 1.3vw;
-}
 /* to highlight the links when selected*/
 a:hover {
     background-color: grey;
@@ -153,21 +135,8 @@ footer {
     }
 
     h2 {
-        font-size: 4vw;
         color: navy;
         text-decoration: underline;
-    }
-
-    h3 {
-        font-size: 3vw;
-    }
-
-    h4 {
-        font-size: 3vw;
-    }
-
-    h5 {
-        font-size: 2vw;
     }
 
     aside {
@@ -206,10 +175,6 @@ footer {
 
     #nav a {
         color: black;
-    }
-
-    h2 {
-        font-size: 4vw;
     }
 
     section{
