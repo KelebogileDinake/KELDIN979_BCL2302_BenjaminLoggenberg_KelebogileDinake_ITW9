@@ -40,6 +40,7 @@ img {
     position: absolute;
     right: 30px;
 }
+
 /* Structuring the nav bar*/
 #nav {
     display: inline;
@@ -53,21 +54,26 @@ img {
     color: white;
     text-decoration: none;
 }
+
 /* Hover is for the hightlighting the link when selected*/
 #nav a:hover {
     background-color: #845ec2;
 }
-/*for text to adjust the text size in all browsers*/
-h1{
+
+/*for text to adjust the size in all browsers*/
+h1 {
     font-size: 2.5em;
 }
-h2{
+
+h2 {
     font-size: 1.875em;
 }
-h3{
+
+h3 {
     font-size: 1.250em;
 }
-h4{
+
+h4 {
     font-size: 1em;
 }
 
@@ -75,6 +81,7 @@ h4{
 section {
     display: flex;
 }
+
 /* used flex 2 for the flex boxes to be equal in size*/
 article {
     flex: 2;
@@ -99,11 +106,13 @@ footer {
     margin-bottom: -25px;
     margin: auto;
 }
+
 /* use of grid to create 2 columns for contacts and contact form*/
 .footer {
     display: grid;
     grid-template-columns: auto auto;
 }
+
 /* for the back to top button*/
 .button {
     position: relative;
@@ -117,7 +126,9 @@ footer {
 /* Responsive Web Design*/
 /* For Mobile devices (up to 768px)*/
 @media only screen and (max-width:768px) {
-    body{
+
+    /*to center all the content */
+    body {
         text-align: center;
     }
 
@@ -126,6 +137,7 @@ footer {
         flex-direction: column;
     }
 
+    /* To position the image in way that both it and nav bar do not touch*/
     img {
         padding-top: 70px;
     }
@@ -147,9 +159,11 @@ footer {
     article {
         background-color: #dcb0ff;
     }
-    li{
+
+    li {
         list-style-type: none;
     }
+
     footer {
         background-color: whitesmoke;
         margin-top: -19.5px;
@@ -177,7 +191,7 @@ footer {
         color: black;
     }
 
-    section{
+    section {
         display: flex;
         flex-direction: row-reverse
     }
@@ -192,13 +206,10 @@ footer {
         margin-bottom: -7px;
     }
 
+    /* to grid both the interpersonal skills and job related skills*/
     .skillA {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
-
-    footer {
-        display: grid;
-        margin: auto;
-    }
+    
 }
