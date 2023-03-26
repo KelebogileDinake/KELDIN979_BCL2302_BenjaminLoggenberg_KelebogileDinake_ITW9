@@ -8,46 +8,6 @@ body {
     background-color: white;
 }
 
-/* Header*/
-/* Adding a hero image and styling the header*/
-header {
-    background-color: white;
-    border-style: hidden;
-    top: 0;
-    background-image: url(https://images.unsplash.com/photo-1559827260-dc66d52bef19?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80)
-}
-
-/* Increase the font use in a header to be clear*/
-.font {
-    padding: 10px;
-    color: whitesmoke;
-}
-
-/*Styling the image and for the image to be centered*/
-img {
-    border-radius: 50%;
-    margin-right: 50%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 50px;
-}
-
-/* Navigation Bar*/
-/* Positioning the nav bar*/
-.navbar {
-    overflow: hidden;
-    position: absolute;
-    right: 30px;
-}
-
-/* Structuring the nav bar*/
-#nav {
-    display: inline;
-    border: 13px hidden;
-    margin-left: 10px;
-}
-
 /* To remove the blue link line on the navigation bar*/
 #nav a {
     font-size: larger;
